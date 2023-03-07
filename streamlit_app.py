@@ -33,6 +33,5 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #output it the screen as a table
 streamlit.dataframe(fruityvice_normalized)
 
-snowflake-connector-python[pandas]
-pyarrow<8.1.0,>=8.0.0
+snowflake-connector-python
 

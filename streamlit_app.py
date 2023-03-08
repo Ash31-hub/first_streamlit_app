@@ -42,7 +42,7 @@ except URLError as e:
 
 
 #import snowflake.connector
-streamlit.header("The fruit load list contains:")
+#streamlit.header("The fruit load list contains:")
 #snowflake realted functions
 
 def get fruit_load_list():
